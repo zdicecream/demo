@@ -27,4 +27,15 @@ public class TestStore {
         user.setDepartment(department);
         this.userReprository.save(user);
     }
+
+    @Test
+    public void testNewBranch1() {
+        User user = new User();
+        user.setName("test1231");
+        Department department = new Department();
+        department.setDepartmentName("21312311111a");
+//        this.departmentReprository.save(department);
+        user.setDepartment(department);
+        this.userReprository.save(user);
+    }
 }
