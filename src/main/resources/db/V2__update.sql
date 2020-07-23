@@ -1,0 +1,1 @@
+INSERT INTO `t_user`(`create_time`, `email`, `last_login_time`, `login_count`, `login_name`, `name`, `password`, `phone`, `department_id`) VALUES ('2019-09-10 11:09:05', '2', '2019-09-10 11:09:08', 3, '3', '3', '3', '3', 1);
