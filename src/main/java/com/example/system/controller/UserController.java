@@ -23,6 +23,7 @@ public class UserController {
             user = new User();
             throw new Exception("1");
         }
+
         return user.toString();
     }
 }
